@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Software Engineering - Unit I</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#eef5ff;
+margin:0;
+padding:20px;
+}
+
+h1{
+text-align:center;
+background:#0d47a1;
+color:white;
+padding:15px;
+border-radius:10px;
+}
+
+button{
+width:100%;
+padding:15px;
+margin:10px 0;
+background:#1976d2;
+color:white;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0d47a1;
+}
+
+.box{
+display:none;
+background:white;
+padding:20px;
+margin-top:10px;
+border-radius:10px;
+}
+
+h2{
+color:#1565c0;
+}
+
+li{
+font-size:18px;
+line-height:1.8;
+}
+
+.back{
+background:#2e7d32;
+}
+
+</style>
+
+<script>
+
+function openBox(id){
+
+var x=document.getElementsByClassName("box");
+
+for(var i=0;i<x.length;i++){
+x[i].style.display="none";
+}
+
+document.getElementById(id).style.display="block";
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h1>📘 Software Engineering - UNIT I</h1>
+
+<button onclick="openBox('two')">2 Marks Questions</button>
+
+<button onclick="openBox('five')">5 Marks Questions</button>
+
+<button onclick="openBox('ten')">10 Marks Questions</button>
+
+<div id="two" class="box">
+
+<h2>UNIT I - 2 Marks</h2>
+
+<ol>
+
+<li>Define Software.</li>
+
+<li>What is Software Engineering?</li>
+
+<li>Define Software Myths.</li>
+
+<li>What is a Process Model?</li>
+
+<li>Define Waterfall Model.</li>
+
+<li>What is Incremental Model?</li>
+
+<li>Define Evolutionary Model.</li>
+
+<li>What is Prototyping?</li>
+
+<li>Define Spiral Model.</li>
+
+<li>List Software Engineering Layers.</li>
+
+</ol>
+
+</div>
+
+<div id="five" class="box">
+
+<h2>UNIT I - 5 Marks</h2>
+
+<ol>
+
+<li>Explain Software Engineering Layers.</li>
+
+<li>Explain Waterfall Model.</li>
+
+<li>Explain Incremental Process Model.</li>
+
+<li>Explain Evolutionary Process Model.</li>
+
+<li>Explain Spiral Model.</li>
+
+<li>Explain Prototyping Model.</li>
+
+</ol>
+
+</div>
+
+<div id="ten" class="box">
+
+<h2>UNIT I - 10 Marks</h2>
+
+<ol>
+
+<li>Explain different Software Process Models with suitable diagrams.</li>
+
+<li>Discuss Software Application Domains in detail.</li>
+
+<li>Explain Software Engineering Layers with neat diagram.</li>
+
+<li>Explain Spiral Model with advantages and disadvantages.</li>
+
+</ol>
+
+</div>
+
+<a href="software-engineering.html">
+<button class="back">⬅ Back to Software Engineering</button>
+</a>
+
+</body>
+  </html>
