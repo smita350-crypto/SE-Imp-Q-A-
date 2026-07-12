@@ -1,8 +1,7 @@
-
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,55 +9,71 @@
 
 <style>
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    padding:20px;
-    font-family:Arial,sans-serif;
-    background:#eaf4ff;
+background:linear-gradient(135deg,#1565c0,#42a5f5,#90caf9);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+width:90%;
+max-width:500px;
+text-align:center;
 }
 
 h1{
-    text-align:center;
-    color:white;
-    background:#0d47a1;
-    padding:20px;
-    border-radius:12px;
-    font-size:32px;
+color:white;
+font-size:38px;
+margin-bottom:10px;
+text-shadow:2px 2px 5px black;
 }
 
-h2{
-    text-align:center;
-    color:#0d47a1;
-    margin:30px 0;
+p{
+color:white;
+font-size:18px;
+margin-bottom:35px;
 }
 
-a{
-    text-decoration:none;
+.card{
+background:white;
+padding:20px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
 }
 
-button{
-    width:100%;
-    padding:20px;
-    margin:15px 0;
-    font-size:20px;
-    font-weight:bold;
-    color:white;
-    background:#1976d2;
-    border:none;
-    border-radius:12px;
-    cursor:pointer;
+.btn{
+display:block;
+width:100%;
+padding:20px;
+margin:15px 0;
+background:linear-gradient(45deg,#1976d2,#0d47a1);
+color:white;
+text-decoration:none;
+font-size:22px;
+font-weight:bold;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 5px 10px rgba(0,0,0,.3);
 }
 
-button:hover{
-    background:#0d47a1;
+.btn:hover{
+transform:scale(1.05);
+background:linear-gradient(45deg,#0d47a1,#1976d2);
 }
 
-.back{
-    background:#2e7d32;
-}
-
-.back:hover{
-    background:#1b5e20;
+.footer{
+margin-top:20px;
+color:#555;
+font-size:15px;
 }
 
 </style>
@@ -67,33 +82,34 @@ button:hover{
 
 <body>
 
+<div class="container">
+
 <h1>📘 Software Engineering</h1>
 
-<h2>Select a Unit</h2>
+<p>BCA 5th Semester | RCU / Evidya Notes</p>
 
-<a href="chapter1.html">
-<button>UNIT I - Introduction to Software Engineering</button>
-</a>
+<div class="card">
 
-<a href="chapter2.html">
-<button>UNIT II - Software Requirements</button>
-</a>
+<a href="chapter1.html" class="btn">📖 UNIT I - Introduction</a>
 
-<a href="chapter3.html">
-<button>UNIT III - Design Engineering</button>
-</a>
+<a href="chapter2.html" class="btn">📝 UNIT II - Software Requirements</a>
 
-<a href="chapter4.html">
-<button>UNIT IV - Testing Strategies</button>
-</a>
+<a href="chapter3.html" class="btn">💻 UNIT III - Design Engineering</a>
 
-<a href="chapter5.html">
-<button>UNIT V - Risk Management & Software Quality Assurance</button>
-</a>
+<a href="chapter4.html" class="btn">🧪 UNIT IV - Testing Strategies</a>
 
-<a href="sem5.html">
-<button class="back">⬅ Back to Semester 5</button>
-</a>
+<a href="chapter5.html" class="btn">⚙️ UNIT V - Project Management</a>
+
+<div class="footer">
+⭐ Notes • Important Questions • RCU/Evidya ⭐
+</div>
+
+</div>
+
+</div>
 
 </body>
-  </html>
+</html>
+
+}
+
