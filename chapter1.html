@@ -59,7 +59,19 @@ background:#2e7d32;
 
 </style>
 
+<script>
+function openBox(id){
 
+var x=document.getElementsByClassName("box");
+
+for(var i=0;i<x.length;i++){
+x[i].style.display="none";
+}
+
+document.getElementById(id).style.display="block";
+
+}
+</script>
 
 </head>
 
