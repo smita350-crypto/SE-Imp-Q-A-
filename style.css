@@ -36,3 +36,22 @@
 .software button:hover {
     background: #003399;
 }
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #0066ff;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px gray;
+}
